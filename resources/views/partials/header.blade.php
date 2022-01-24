@@ -8,7 +8,7 @@
       <a class="nav-link {{(Route::currentRouteName() ==='movies')? 'active' : ''}}" href=" {{route('movies')}} ">Movie</a>
     </li>
     <li class="nav-item ">
-      <a class="nav-link {{(Route::currentRouteName() ==='series')? 'active' : ''}}" href=" {{route('series')}} ">Series</a>
+      <a class="nav-link {{(Route::currentRouteName() ==='firstquery')? 'active' : ''}}" href=" {{route('firstquery')}} ">Prima query</a>
     </li>
   </ul>
 </header>

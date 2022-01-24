@@ -13,9 +13,10 @@ class PageController extends Controller
     public function movies(){
         $movies = Movies::all();
         dump($movies);
-        return view('movies');
+        return view('movies',compact('movies'));
     }
-    public function series(){
-        return view('series');
+    public function firstquery(){
+        $resultQueryTwo = Movies::where('id',2)->first();
+        return view('firstquery',compact('resultQueryTwo'));
     }
 }
