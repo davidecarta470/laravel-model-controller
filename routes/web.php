@@ -13,16 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+Route::get('/' ,'PageController@index')->name('home');
 
 
-Route::get('/movies', function () {
-    return view('movies');
-})->name('movies');
+Route::get('/movies', 'PageController@movies')->name('movies');
 
 
-Route::get('/series', function () {
-    return view('series');
-})->name('series');
+Route::get('/series', 'PageController@series')->name('series');
