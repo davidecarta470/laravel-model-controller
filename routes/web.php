@@ -18,11 +18,11 @@ Route::get('/', function () {
 })->name('home');
 
 
-Route::get('/chi-siamo', function () {
-    return view('about');
-})->name('about');
+Route::get('/movies', function () {
+    return view('movies');
+})->name('movies');
 
 
-Route::get('/contatti', function () {
-    return view('contacts');
-})->name('contacts');
+Route::get('/series', function () {
+    return view('series');
+})->name('series');

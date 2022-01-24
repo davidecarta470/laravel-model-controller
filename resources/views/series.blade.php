@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
   <h1>
-    ciao sono il tuo about
+    Qui le tue serie
   </h1>
 @endsection

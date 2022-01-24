@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
   <h1>
-    ciao sono i tuoi contatti
+    Qui i tuoi films
   </h1>
 @endsection
